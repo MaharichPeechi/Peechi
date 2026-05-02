@@ -1,0 +1,9 @@
+// Exemplo oficial da versão 0.1.1
+
+// Na versão 0.1.1, isso deveria gerar um erro porque a função str() ainda não existe:
+// print("Texto" + 1)
+// A concatenação com + agora respeita os tipos:
+
+print("Olá " + "Peechi!")
+print(10 + 15)
+print("Idade:" + 20) // erro esperado

@@ -1,0 +1,48 @@
+// Official example of version 0.1.0
+
+print("Hello, Peechi!")
+print('Hello, Peechi!')
+print("Hello,", "Peechi!")
+print("Hello,", 'Peechi!')
+print("Value:", 10)
+print("Age:", 15)
+
+name = "Peechi"
+age = 20
+active = true
+
+print(name)
+print(age)
+print(active)
+
+print(10 + 5)
+print(10 - 5)
+print(10 * 2)
+print(10 / 2)
+
+print(10 == 10)
+print(10 != 3)
+print(10 > 5)
+print(10 < 5)
+print(10 >= 10)
+print(10 <= 9)
+
+text = "Hello, " + "world!"
+print(text)
+
+if age >= 18 {
+    print("Of legal age")
+} else {
+    print("Underage")
+}
+
+counter = 0
+while counter < 3 {
+    print("step:", counter)
+    counter = counter + 1
+}
+
+loop {
+    print("loop once")
+    break
+}

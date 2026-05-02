@@ -1,0 +1,30 @@
+# Arquivos locais do Maharich
+*.bat
+.vscode/
+
+# Builds e arquivos gerados
+build/
+out/
+Output/
+bin/
+dist/
+
+# Binários
+*.exe
+*.dll
+*.o
+*.obj
+*.pdb
+*.ilk
+*.log
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Visual Studio / sistema
+.vs/
+.DS_Store
+Thumbs.db

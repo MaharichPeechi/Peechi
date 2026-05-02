@@ -1,0 +1,48 @@
+// Exemplo oficial da 0.1.0
+
+print("Olá, Peechi!")
+print('Olá, Peechi!')
+print("Olá,", "Peechi!")
+print("Olá,", 'Peechi!')
+print("Valor:", 10)
+print("Idade:", 15)
+
+nome = "Peechi"
+idade = 20
+ativo = true
+
+print(nome)
+print(idade)
+print(ativo)
+
+print(10 + 5)
+print(10 - 5)
+print(10 * 2)
+print(10 / 2)
+
+print(10 == 10)
+print(10 != 3)
+print(10 > 5)
+print(10 < 5)
+print(10 >= 10)
+print(10 <= 9)
+
+texto = "Olá, " + "mundo!"
+print(texto)
+
+if idade >= 18 {
+    print("Maior de idade")
+} else {
+    print("Menor de idade")
+}
+
+contador = 0
+while contador < 3 {
+    print("passo:", contador)
+    contador = contador + 1
+}
+
+loop {
+    print("loop uma vez")
+    break
+}
